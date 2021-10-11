@@ -70,6 +70,10 @@ resource "aws_cognito_user_pool_domain" "saml" {
   domain          = var.dns_name
   user_pool_id    = aws_cognito_user_pool.saml.id
   certificate_arn = module.auth_domain_certificate.acm_arn
+  depends_on = [
+    aws_route53_record.cognito_auth,
+    aws_route53_record.cognito_auth_ipv6
+  ]
 }
 
 resource "aws_route53_record" "cognito_auth" {
