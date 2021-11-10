@@ -74,7 +74,7 @@ domains `my-app.int.my-corp.com` and `my-other-app.int.my-corp.com`.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_auth_domain_certificate"></a> [auth\_domain\_certificate](#module\_auth\_domain\_certificate) | trussworks/acm-cert/aws | n/a |
+| <a name="module_auth_domain_certificate"></a> [auth\_domain\_certificate](#module\_auth\_domain\_certificate) | trussworks/acm-cert/aws |  |
 
 ## Resources
 
