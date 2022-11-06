@@ -2,7 +2,7 @@ module github.com/trussworks/terraform-aws-saml-cognito
 
 go 1.19
 
-require github.com/gruntwork-io/terratest v0.40.17
+require github.com/gruntwork-io/terratest v0.40.24
 
 require (
 	cloud.google.com/go v0.83.0 // indirect
