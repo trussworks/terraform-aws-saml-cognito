@@ -2,7 +2,7 @@ module github.com/trussworks/terraform-aws-saml-cognito
 
 go 1.19
 
-require github.com/gruntwork-io/terratest v0.40.24
+require github.com/gruntwork-io/terratest v0.41.0
 
 require (
 	cloud.google.com/go v0.105.0 // indirect
@@ -61,7 +61,6 @@ require (
 	github.com/pquerna/otp v1.3.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/stretchr/testify v1.8.1 // indirect
 	github.com/tmccombs/hcl2json v0.3.4 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
