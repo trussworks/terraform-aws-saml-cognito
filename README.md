@@ -56,7 +56,7 @@ domains `my-app.int.my-corp.com` and `my-other-app.int.my-corp.com`.
 
 - Terraform 0.13 and newer. Pin module version to ~> 3.0. Submit pull requests to `main` branch.
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -107,7 +107,7 @@ domains `my-app.int.my-corp.com` and `my-other-app.int.my-corp.com`.
 | cognito\_user\_pool\_arn | ARN for the Cognito User Pool |
 | cognito\_user\_pool\_client\_id | ID for the Cognito User Pool Client |
 | cognito\_user\_pool\_domain | Name for the Cognito User Pool Domain |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- END_TF_DOCS -->
 
 ## Attribution
 
