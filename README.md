@@ -56,7 +56,7 @@ domains `my-app.int.my-corp.com` and `my-other-app.int.my-corp.com`.
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.13 |
+| terraform | >= 1.0 |
 | aws | >= 3.0 |
 
 ## Providers
