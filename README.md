@@ -51,11 +51,6 @@ This will leave you with Cognito resources, that use
 SAML IDP. It can be used to provide authentication for apps running on the
 domains `my-app.int.my-corp.com` and `my-other-app.int.my-corp.com`.
 
-
-## Terraform Versions
-
-- Terraform 0.13 and newer. Pin module version to ~> 3.0. Submit pull requests to `main` branch.
-
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
