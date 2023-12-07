@@ -58,7 +58,7 @@ module "auth_domain_certificate" {
   source = "trussworks/acm-cert/aws"
 
   domain_name = var.dns_name
-  zone_name   = data.aws_route53_zone.selected.name
+  zone_id     = data.aws_route53_zone.selected.id
   environment = var.environment
 
   providers = {
