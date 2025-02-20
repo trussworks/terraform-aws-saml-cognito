@@ -112,4 +112,11 @@ resource "aws_cognito_identity_provider" "saml" {
   attribute_mapping = {
     email = "email"
   }
+
+  lifecycle {
+    ignore_changes = [
+      // This is a computed value, so we need to ignore it.
+      provider_details["ActiveEncryptionCertificate"],
+    ]
+  }
 }
