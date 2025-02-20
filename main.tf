@@ -59,7 +59,6 @@ module "auth_domain_certificate" {
 
   domain_name = var.dns_name
   zone_id     = data.aws_route53_zone.selected.id
-  environment = var.environment
 
   providers = {
     aws = aws.us-east-1
