@@ -59,7 +59,6 @@ module "auth_domain_certificate" {
 
   domain_name = var.dns_name
   zone_id     = data.aws_route53_zone.selected.id
-  environment = var.environment
 
   providers = {
     aws = aws.us-east-1
@@ -112,5 +111,12 @@ resource "aws_cognito_identity_provider" "saml" {
 
   attribute_mapping = {
     email = "email"
+  }
+
+  lifecycle {
+    ignore_changes = [
+      // This is a computed value, so we need to ignore it.
+      provider_details["ActiveEncryptionCertificate"],
+    ]
   }
 }
